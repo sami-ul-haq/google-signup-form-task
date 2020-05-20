@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Signup Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9e2213edf0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<main>
+
+    <section id="main_content">
+
+        <section class="left_content">
+
+        <img src="./images/google-png.png" alt="google logo" class="logo" >
+        <h1>Create your Google Account</h1>
+
+        <form action="#">
+
+            <div class="fullname">
+                <div>
+                    <!-- <fieldset> -->
+                        <!-- <legend for="firstname">First name</legend> -->
+                        <label for="firstname">First name</label>
+                        <input type="text" placeholder="First name" required>
+                    <!-- </fieldset>     -->
+                </div>
+                
+                <div>
+                    <label for="lastname">Last name</label>
+                    <input type="text" class="margin_left" placeholder="Last name" required>
+                </div>
+            </div>   
+        
+            <div class="user_name">
+                <label for="username">Username</label>
+                <input type="text" class="username" placeholder="Username" required>
+                <button>@gmail.com</button>
+            </div>
+
+            <div class="user_name_extra">
+                <p>You can use letters, numbers & periods</p>
+                <h5><a href="#">Use my current email address instead</a></h5>
+            </div>
+
+            <div class="password">
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" required>
+                </div>
+                
+                <div>
+                    <label for="confirm">Confirm</label>
+                    <input type="password" class="margin_left" placeholder="Confirm" required>
+                    <i class="far fa-eye-slash"></i>
+                </div>
+            </div>
+
+            <div>
+                <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+            </div>
+
+            <div class="sign_in">
+                <button class="sign_btn">Sign in instead</button>
+                <button class="btn">Next</button>
+            </div>
+
+        </form>
+
+        </section>
+
+        <section class="right_content">
+                <img src="./images/account.svg" alt="google image">
+                <p>One account. All of Google working for you.</p>
+        </section>
+
+    </section>
+
+</main>
+
+</body>
+</html>
